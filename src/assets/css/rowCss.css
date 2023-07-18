@@ -1,0 +1,51 @@
+/* common css */
+
+
+/* navBar css */
+
+.logo_image{
+    height: 75px;
+    width: 75px;
+}
+.mymenu{
+    background-color: #BF1430;
+}
+.ulOfMenu{
+    margin: auto;
+    padding: 0;
+}
+.ulOfMenu li{
+     margin-right: 20px; 
+     font-size: 20px;    
+}
+.navbar-nav{
+    --bs-nav-link-padding-y:0px!important;
+}
+/* মেনু বার এর সিএসএস */
+.nav-item{
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 55px;   
+    left: auto;
+    transition: all linear 0.5s;
+    width: 263px;
+    text-align: center;
+    height: 0px;
+    overflow: hidden;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu.show.newmenu {
+    position: absolute;
+    top: 45px;   
+    left: auto;
+    height:260px ;
+    overflow: hidden;
+   
+}
+/*  */
+.allItem{
+    text-align: center;
+    margin: 0 auto;
+}
